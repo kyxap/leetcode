@@ -4,8 +4,6 @@ import io.github.kyxap.leetcode.random.getpopquery.Controller;
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 
@@ -58,9 +56,5 @@ public class ControllerTest {
         controller.get(3, SINGER);
         controller.get(3, QA);
         assertEquals(Arrays.asList(TRUCK_DRIVER, QA, QA_AUTOMATION), controller.get(4, TRUCK_DRIVER));
-    }
-
-    @Test
-    public void test() {
     }
 }
